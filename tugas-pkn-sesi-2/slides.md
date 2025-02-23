@@ -60,42 +60,37 @@ mdc: true
 
 ---
 
-# Timeline
+# Sejarah Sistem Pemerintahan Indonesia
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-  <br>
-  <br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
+```mermaid
+timeline
+section Pasca Kemerdekaan
+  1945 - 1949
+    : 18 Agustus 1945 - 27 Desember 1949
+    : Negara - Kesatuan
+    : Pemerintahan - Republik
+    : Sistem - Presidential
+    : (konstitusi) UUD 1945
+section Era RIS
+  1949 - 1950
+      : 27 Desember 1949 - 15 Agustus 1950
+      : (Negara) Serikat
+      : Sistem - Republik
+      : Sistem - Quasi Parlementer
+      : (konstitusi) Konstitusi RIS
+section Pasca RIS
+  1950 - 1959
+      : 15 Agustus 1950 - 5 Juli 1959
+      : (Negara) Kesatuan
+      : (Pemerintahan) Republik
+      : (pemerintahan) Parlementer
+      : (konstitusi) UUD Sementara 1950
+section Orde Lama
+1959 - 1966
+section Orde Baru
+1966 - 1998
+1998 - Sekarang
+```
 
 ---
 
@@ -599,8 +594,15 @@ dragPos:
 square: -30,0,0,0
 
 ---
+
 dragPos:
-  square: -30,0,0,0
+square: -30,0,0,0
+
+---
+
+dragPos:
+square: -30,0,0,0
+
 ---
 
 # Draggable Elements
@@ -648,7 +650,6 @@ src: ./pages/imported-slides.md
 hide: false
 
 ---
-
 
 ---
 
