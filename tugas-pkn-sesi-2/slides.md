@@ -8,11 +8,11 @@ drawings:
 Author: Ahmad Hasan Maki
 transition: slide-left
 mdc: true
-mermaid: true
 layout: image
 image: /img/intro.jpg
 color: white
 src: ./pages/opening.md
+class: 'text-black text-center'
 ---
 
 ---
@@ -34,12 +34,10 @@ src: ./pages/timeline.md
 ---
 
 ---
-
 layout: cover
 background: /img/transisi-to-ordebaru.jpg
 class: 'text-white text-center px-14'
 transition: slide-up
-
 ---
 
 <v-click>
