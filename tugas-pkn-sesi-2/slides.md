@@ -22,7 +22,6 @@ mdc: true
 </div>
 
 <!-- Footer -->
-<!-- Footer -->
 <div class="fixed bottom-2 left-1/2 transform -translate-x-1/2 w-[90%] p-2 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 text-white/80">
   <div class="flex flex-wrap items-center justify-between px-4 gap-4">
     <div class="flex items-center gap-3">
@@ -60,36 +59,73 @@ mdc: true
 
 ---
 
+<style>
+:root {
+  --slidev-theme-primary:rgb(204, 0, 48) !important; /* Indonesian red */
+}
+.slidev-layout {
+  background: linear-gradient(45deg, rgba(255,0,0,0.05) 0%, rgba(255,255,255,0.95) 100%);
+}
+h1, h2, h3 {
+  color: var(--slidev-theme-primary);
+}
+.timeline-wrapper {
+  border-left: 4px solid var(--slidev-theme-primary);
+}
+.section {
+  background: rgba(15, 13, 13, 0.05);
+  border: 1px solid rgba(204,0,0,0.2);
+}
+</style>
+
 # Sejarah Sistem Pemerintahan Indonesia
 
 ```mermaid
+%%{init: { 'logLevel': 'debug', 'theme': 'base', 'timeline': {'disableMulticolor': true}}}%%
 timeline
 section Pasca Kemerdekaan
   1945 - 1949
-    : 18 Agustus 1945 - 27 Desember 1949
-    : Negara - Kesatuan
-    : Pemerintahan - Republik
-    : Sistem - Presidential
-    : (konstitusi) UUD 1945
+      : 18 Agustus 1945 <br> 27 Desember 1949
+      : Kesatuan
+      : Republik
+      : Presidential
+      : UUD 1945
 section Era RIS
   1949 - 1950
-      : 27 Desember 1949 - 15 Agustus 1950
-      : (Negara) Serikat
-      : Sistem - Republik
-      : Sistem - Quasi Parlementer
-      : (konstitusi) Konstitusi RIS
+      : 27 Desember 1949 <br> 15 Agustus 1950
+      : Serikat
+      : Republik
+      : Quasi Parlementer
+      : Konstitusi RIS
 section Pasca RIS
   1950 - 1959
-      : 15 Agustus 1950 - 5 Juli 1959
-      : (Negara) Kesatuan
-      : (Pemerintahan) Republik
-      : (pemerintahan) Parlementer
-      : (konstitusi) UUD Sementara 1950
+      : 15 Agustus 1950 <br> 5 Juli 1959
+      : Kesatuan
+      : Republik
+      : Parlementer
+      : UUD Sementara 1950
 section Orde Lama
-1959 - 1966
+  1959 - 1966
+      : 5 Juli 1959 <br> 22 Februari 1966
+      : Kesatuan
+      : Republik
+      : Presidential
+      : UUD 1945
 section Orde Baru
-1966 - 1998
-1998 - Sekarang
+  1966 - 1998
+      : 22 Februari 1966 <br> 21 Mei 1998
+      : Kesatuan
+      : Republik
+      : Presidential
+      : UUD 1945
+section Reformasi
+  1998 - Sekarang
+      : 21 Mei 1998 <br> Sekarang
+      : Kesatuan
+      : Republik
+      : Presidential
+      : UUD 1945 <br>4 kali amandemen <br> 1999–2002
+
 ```
 
 ---
@@ -605,6 +641,19 @@ square: -30,0,0,0
 
 ---
 
+dragPos:
+square: 0,-614,0,0
+
+---
+
+dragPos:
+square: -30,0,0,0
+
+---
+dragPos:
+  square: -30,0,0,0
+---
+
 # Draggable Elements
 
 Double-click on the draggable elements to edit their positions.
@@ -650,6 +699,7 @@ src: ./pages/imported-slides.md
 hide: false
 
 ---
+
 
 ---
 
