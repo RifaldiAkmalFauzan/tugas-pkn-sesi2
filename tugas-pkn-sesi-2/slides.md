@@ -24,17 +24,28 @@ src: ./pages/timeline.md
 
 ---
 layout: cover
-background: /img/presiden_soeharto.png
+background: /img/transisi-to-ordebaru.jpg
 class: 'text-white text-center px-14'
 transition: slide-up
 ---
 
 <v-click>
 
-The Smiling General
-
+# 22 Februari 1966 - 21 Mei 1998
 </v-click>
 
 ---
-src: ./pages/ordebaru.md
+layout: cover
+class: 'text-white text-center px-17'
+transition: slide-up
+
+---
+
+<div v-click="[2, 4]" v-motion
+  :initial="{ x: -50 }"
+  :enter="{ x: 0 }"
+  :leave="{ x: 50 }"
+>
+  Shown at click 2 and hidden at click 4.
+</div>
 ---
