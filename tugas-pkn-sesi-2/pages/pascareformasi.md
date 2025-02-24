@@ -30,3 +30,5 @@ Setelah Indonesia merdeka pada tanggal 17 Agustus 1945, negara ini menghadapi be
 Periode pasca kemerdekaan Indonesia adalah masa yang penuh dengan dinamika politik, sosial, dan ekonomi yang membentuk negara ini hingga menjadi seperti sekarang.
 
 # setelah editing , tambahin page nya ke yang baru di slides
+
+# test commit
