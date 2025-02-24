@@ -22,4 +22,17 @@ transition: slide-up
 src: ./pages/timeline.md
 ---
 
+---
+layout: cover
+background: /img/presiden_soeharto.png
+class: 'text-white text-center px-14'
+transition: slide-up
+---
 
+<v-click>
+
+The Smiling General
+
+</v-click>
+
+---
