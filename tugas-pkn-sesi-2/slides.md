@@ -36,3 +36,5 @@ The Smiling General
 </v-click>
 
 ---
+src: ./pages/ordebaru.md
+---
