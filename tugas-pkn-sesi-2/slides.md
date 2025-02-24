@@ -2,7 +2,7 @@
 # theme configuration
 theme: default
 title: Tugas PKN-Sesi-2
-titleTemplate: "%s - Tugas PKN"
+titleTemplate: '%s - Tugas PKN'
 
 # presentation info
 info: |
@@ -32,6 +32,8 @@ download: true
 
 # favicon
 favicon: '/img/logo-university.png'
+
+layout: intro
 ---
 
 # terbentur, terbentur, terbentur. <br> terbentuk<br> --datuk ibrahim tan malaka
