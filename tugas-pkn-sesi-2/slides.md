@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: neversink
 background: /img/opening-background.jpg
 title: Tugas PKN-Sesi-2
 info: |
@@ -17,8 +17,8 @@ src: ./pages/opening.md
 ---
 layout: cover
 background: /img/slide-timeline.jpg
-class: 'text-white text-center px-17'
-transition: slide-up
+class: 'text-black text-center px-17'
+transition: slide-left
 src: ./pages/timeline.md
 ---
 
@@ -31,21 +31,33 @@ transition: slide-up
 
 <v-click>
 
+# Orde Baru
 # 22 Februari 1966 - 21 Mei 1998
+
 </v-click>
 
 ---
 layout: cover
 class: 'text-white text-center px-17'
-transition: slide-up
-
+transition: slide-left
+preload: false
+background: /img/presiden_soeharto.png
 ---
 
-<div v-click="[2, 4]" v-motion
-  :initial="{ x: -50 }"
-  :enter="{ x: 0 }"
-  :leave="{ x: 50 }"
->
-  Shown at click 2 and hidden at click 4.
+<v-clicks>
+<div v-click="1">
+  <h2>The Smiling General</h2>
 </div>
+
+<div v-click="2">
+  <h2>#Enak Jaman ku Toh</h2>
+</div>
+
+</v-clicks>
+
+
+---
+class: 'text-white text-center px-17'
+transition: slide-left
+src: ./pages/ordebaru.md
 ---
