@@ -1,10 +1,3 @@
----
-layout: cover
-background: /img/slide-timeline.jpg
-class: 'text-white text-center px-17'
-transition: slide-up
----
-
 # Sejarah Sistem Pemerintahan Indonesia
 
 <div class="p-8 mb-16 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl">
@@ -53,3 +46,5 @@ section Reformasi
       : Republik
       : Presidential
       : UUD 1945
+````
+</div>

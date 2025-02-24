@@ -11,8 +11,15 @@ Author: Ahmad Hasan Maki
 transition: slide-left
 mdc: true
 mermaid: true
+src: ./pages/opening.md
 ---
 
-## src: ./pages/opening.md
+---
+layout: cover
+background: /img/slide-timeline.jpg
+class: 'text-white text-center px-17'
+transition: slide-up
+src: ./pages/timeline.md
+---
 
-## src: ./pages/timeline.md
+
