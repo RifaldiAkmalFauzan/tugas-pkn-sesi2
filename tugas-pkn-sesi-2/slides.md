@@ -10,6 +10,7 @@ drawings:
 Author: Ahmad Hasan Maki
 transition: slide-left
 mdc: true
+mermaid: true
 ---
 
 # Sistem Pemerintahan Indonesia <br>Dari Masa ke Masa
@@ -64,8 +65,8 @@ transition: slide-up
 # Sejarah Sistem Pemerintahan Indonesia
 
 <div class="p-8 mb-16 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl">
-```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'base', 'timeline': {'disableMulticolor': true}}}%%
+      ```mermaid
+%%{init: {'theme': 'base', 'logLevel': 'debug', 'timeline': {'disableMulticolor': true}}}%%
 timeline
 section Pasca Kemerdekaan
   1945 - 1949
@@ -108,6 +109,7 @@ section Reformasi
       : Kesatuan
       : Republik
       : Presidential
-      : UUD 1945 <br>4 kali amandemen <br> 1999–2002
-```
-</div>
+      : UUD 1945 <br> 4 kali amandemen <br> 1999–2002
+      ```
+
+  </div>
