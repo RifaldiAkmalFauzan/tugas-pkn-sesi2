@@ -59,7 +59,6 @@ layout: cover
 background: /img/slide-timeline.jpg
 class: 'text-white text-center px-20'
 transition: slide-up
-
 ---
 
 # Sejarah Sistem Pemerintahan Indonesia
