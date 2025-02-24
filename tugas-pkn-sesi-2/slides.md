@@ -33,6 +33,8 @@ download: true
 
 # favicon
 favicon: "/img/logo-university.png"
+color:
+layout: intro
 ---
 
 # #INDONESIAGELAP
@@ -63,7 +65,6 @@ layout: cover
 ---
 src: ./pages/reformasi.md
 layout: cover
-
 ---
 
 <!-- Global style overrides -->
