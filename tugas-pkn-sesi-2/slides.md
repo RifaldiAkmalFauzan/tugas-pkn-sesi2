@@ -46,9 +46,6 @@ src: ./pages/timeline.md
 
 ---
 src: ./pages/ordebaru.md
-background: /img/intro.jpg
-transition: fade
-layout: full
 ---
 
 ---

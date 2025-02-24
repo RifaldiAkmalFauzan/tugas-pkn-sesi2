@@ -1,4 +1,24 @@
-# Peristiwa peristiwa penting selama orde baru
+---
+background: /img/transisi-to-ordebaru.jpg
+transition: fade
+layout: cover
+---
+
+# OrdeBaru
+
+<v-clicks>
+
+- what ?
+- Orde Baru adalah satu periode dalam sejarah Indonesia yang berawal dengan naiknya Soeharto sebagai Presiden Indonesia pada 1966 sampai lengsernya pada 1998.
+- when ?
+- Ditandai dengan terbitnya Surat Perintah Sebelas Maret (Supersemar) pada tahun 1966, Orde Baru resmi berdiri
+- who ?
+- H.M. Soeharto dan Sri Sultan Hamengkubuwono IX
+
+
+</v-clicks>
+
+Orde Baru adalah satu periode dalam sejarah Indonesia yang berawal dengan naiknya Soeharto sebagai Presiden Indonesia pada 1966 sampai lengsernya pada 1998.
 
 1966
 Pemulihan di bidang ekonomi
