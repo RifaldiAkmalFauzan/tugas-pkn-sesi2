@@ -1,6 +1,6 @@
 # Sejarah Sistem Pemerintahan Indonesia
 
-<div class="p-8 mb-16 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl">
+<div class="p-8 mb-16 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl max-h-screen overflow-y-auto">
 ```mermaid
 %%{init: {'theme': 'base', 'logLevel': 'debug', 'timeline': {'disableMulticolor': true}}}%%
 timeline
