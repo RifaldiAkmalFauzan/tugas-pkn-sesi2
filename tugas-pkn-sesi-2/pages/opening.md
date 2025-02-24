@@ -1,4 +1,4 @@
-# Sistem Pemerintahan Indonesia Dari Masa ke Masa
+# Sistem Pemerintahan Indonesia <br>Dari Masa ke Masa
 
 <div class="fixed bottom-2 left-1/2 transform -translate-x-1/2 w-[90%] p-4 bg-white/10 backdrop-blur-lg rounded-lg border border-white/20 text-black/80 shadow-lg">
   <div class="flex flex-wrap items-center justify-between gap-4">
