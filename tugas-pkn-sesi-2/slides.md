@@ -32,6 +32,8 @@ download: true
 
 # favicon
 favicon: "/img/logo-university.png"
+
+layout: intro
 ---
 
 # terbentur, terbentur, terbentur. <br> terbentuk<br> --datuk ibrahim tan malaka
