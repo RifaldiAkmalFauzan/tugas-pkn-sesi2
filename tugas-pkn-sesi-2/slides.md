@@ -31,26 +31,32 @@ presenter: true
 download: true
 
 # favicon
-favicon: "/img/logo-university.png"
+favicon: '/img/logo-university.png'
 ---
 
 # terbentur, terbentur, terbentur. <br> terbentuk<br> --datuk ibrahim tan malaka
 
 ---
-src: ./pages/opening.md
----
+
+## src: ./pages/opening.md
 
 ---
-src: ./pages/timeline.md
----
+
+## src: ./pages/timeline.md
 
 ---
-src: ./pages/ordebaru.md
----
+
+## src: ./pages/pascareformasi.md
 
 ---
+
+## src: ./pages/ordebaru.md
+
+---
+
 src: ./pages/reformasi.md
 layout: full
+
 ---
 
 <!-- Global style overrides -->
