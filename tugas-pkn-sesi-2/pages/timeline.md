@@ -1,4 +1,10 @@
-# Sejarah Sistem Pemerintahan Indonesia
+---
+background: /img/timeline.jpg
+transition: fade
+layout: cover
+---
+
+# Timeline Sejarah
 
 <div class="p-8 mb-16 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 shadow-xl max-h-screen overflow-y-auto">
 ```mermaid

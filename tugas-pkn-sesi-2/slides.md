@@ -14,7 +14,6 @@ author: Ahmad Hasan Maki
 authorId: 20240040032
 
 # global style
-background: none
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -33,38 +32,28 @@ download: true
 
 # favicon
 favicon: "/img/logo-university.png"
-color:
-layout: intro
 ---
 
-# #INDONESIAGELAP
-
-Jasmerah : Omon Omon Aja
+# Pikiran yang tumpul mudah bosan. <br>Pikiran ingin tahu berkembang selamanya.<br> --Maxime Lagace
 
 ---
 src: ./pages/opening.md
-background: /img/intro.jpg
-transition: fade
-layout: cover
 ---
 
 ---
 src: ./pages/timeline.md
-background: /img/timeline.jpg
-transition: fade
-layout: cover
 ---
 
 ---
 src: ./pages/ordebaru.md
 background: /img/intro.jpg
 transition: fade
-layout: cover
+layout: full
 ---
 
 ---
 src: ./pages/reformasi.md
-layout: cover
+layout: full
 ---
 
 <!-- Global style overrides -->

@@ -1,3 +1,9 @@
+---
+background: /img/intro.jpg
+transition: fade
+layout: cover
+---
+
 # Sistem Pemerintahan Indonesia <br>Dari Masa ke Masa
 
 <div class="pt-2">
