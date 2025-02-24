@@ -8,45 +8,67 @@ layout: cover
 
 <v-clicks>
 
-- what ?
 - Orde Baru adalah satu periode dalam sejarah Indonesia yang berawal dengan naiknya Soeharto sebagai Presiden Indonesia pada 1966 sampai lengsernya pada 1998.
-- when ?
-- Ditandai dengan terbitnya Surat Perintah Sebelas Maret (Supersemar) pada tahun 1966, Orde Baru resmi berdiri
-- who ?
-- H.M. Soeharto dan Sri Sultan Hamengkubuwono IX
-
+- Ditandai dengan terbitnya Surat Perintah Sebelas Maret (Supersemar) pada tahun 1966, Orde Baru resmi berdiri.
+- Bentuk pemerintahan: Kesatuan
+- Bentuk Negara: republik
+- Sistem Pemerintahan: Presidential
+- Sistem Konstitusi: UUD 1945
 
 </v-clicks>
 
-Orde Baru adalah satu periode dalam sejarah Indonesia yang berawal dengan naiknya Soeharto sebagai Presiden Indonesia pada 1966 sampai lengsernya pada 1998.
+<style>
+.slidev-layout.cover {
+  background-color: rgb(249, 243, 243);
+  h1 {
+    @apply text-white text-shadow-lg;
+  }
+}
+</style>
 
-1966
-Pemulihan di bidang ekonomi
-sebab : Indonesia mengalami defisit sehingga membutuhkan dana dalam jumlah besar
-akibat : Indonesia bergabung dengan IMF (Internasional Monetary Fund) dan mendapat bantuan keuangan dari negara-negara barat.
 
-Jan 10, 1966
-Tritura ( Tri Tuntutan Rakyat )
-sebab : Masyarakat menuntut pembubaran PKI
-akibat :
-dibuat Tritura yang berisi :
+---
+color: white
+layout: cover
+transition: fade
 
-Pembubaran PKI
-Pembersihan kabinet dari unsur G30S0PKI
-Penurunan harga dan perbaikan ekonomi
+---
 
-Mar 11, 1966
-Supersemar
-sebab : situasi keamanan yang buruk dan kacau
-akibat : menginstruksikan Soeharto, selaku panglima komando operasi keamanan dan ketertiban untuk mengambil segala tindakan yang dianggap perlu untuk mengatasi situasi keamanan yang buruk saat itu.
+# The Smiling General
 
-Jul 3, 1971
-Pemilu (Pemilihan umum)
-sebab : belum adanya partai di parlemen
-akibat : diadakan Pemilu yang diikuti 10 partai politik dan Golkar menjadi pemenang pemilu pertama orde baru.
+<v-click>
+<div class="flex justify-center">
+  <img
+    src="../img/presiden_soeharto.png"
+    alt="Presiden Soeharto"
+    class="w-50 h-auto rounded-lg shadow-xl"
+  />
+</div>
+</v-click>
+<v-click>
+```mermaid
+ %%{init: { 'logLevel': 'debug', 'theme': 'base', 'timeline': {'disableMulticolor': true}}}%%
+timeline
+    1966 - 1978
+        : Sri Sultan Hamengkubuwono IX
+    1978 - 1983
+        : Adam Malik
+    1983 - 1988
+        : Umar Wirahadikusumah
+    1988 - 1993
+        : Sudharmono
+    1993 - 1998
+        : Try Sutrisno
+    1998
+        : BJ. Habibie
+```
+</v-click>
 
-Mar 12, 1973
-Sidang Umum MPR
-sebab : belum adanya ketetapan MPR
-
-akibat :Dilaksanakannya sidang umum MPR dimana Presiden Soeharto menyampaikan pidato pertanggung jawabannya.
+<style>
+.slidev-layout.cover {
+  background-color: rgb(249, 243, 243);
+  h1 {
+    @apply text-black text-shadow-lg;
+  }
+}
+</style>

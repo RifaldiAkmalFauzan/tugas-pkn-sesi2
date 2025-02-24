@@ -34,7 +34,7 @@ download: true
 favicon: "/img/logo-university.png"
 ---
 
-# Pikiran yang tumpul mudah bosan. <br>Pikiran ingin tahu berkembang selamanya.<br> --Maxime Lagace
+# terbentur, terbentur, terbentur. <br> terbentuk<br> --datuk ibrahim tan malaka
 
 ---
 src: ./pages/opening.md
