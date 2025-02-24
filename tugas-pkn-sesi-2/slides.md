@@ -59,25 +59,6 @@ mdc: true
 
 ---
 
-<style>
-:root {
-  --slidev-theme-primary:rgb(204, 0, 48) !important; /* Indonesian red */
-}
-.slidev-layout {
-  background: linear-gradient(45deg, rgba(255,0,0,0.05) 0%, rgba(255,255,255,0.95) 100%);
-}
-h1, h2, h3 {
-  color: var(--slidev-theme-primary);
-}
-.timeline-wrapper {
-  border-left: 4px solid var(--slidev-theme-primary);
-}
-.section {
-  background: rgba(15, 13, 13, 0.05);
-  border: 1px solid rgba(204,0,0,0.2);
-}
-</style>
-
 # Sejarah Sistem Pemerintahan Indonesia
 
 ```mermaid
